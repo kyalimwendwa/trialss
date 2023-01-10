@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DoctorRegister">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Create Account"
+        android:textSize="24sp"
+        android:textAllCaps="true"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="center"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/user"
+
+        />
+    <ImageView
+        android:id="@+id/find"
+        android:layout_width="40dp"
+        android:layout_marginTop="-20dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="210dp"
+        android:src="@drawable/ic_baseline_add_a_photo_24"
+        />
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto"
+        android:textSize="16sp"
+        android:hint="Fullname"
+        android:id="@+id/etname"
+        android:textColorHint="#128C7E" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/roboto"
+        android:textSize="16sp"
+        android:id="@+id/etemail"
+        android:hint="Email Address"
+        android:textColorHint="#128C7E" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/roboto"
+        android:textSize="16sp"
+        android:id="@+id/etcontact"
+        android:hint="Phone number"
+        android:textColorHint="#128C7E" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/roboto"
+        android:id="@+id/etdepartment"
+        android:textSize="16sp"
+        android:hint="Department"
+        android:textColorHint="#128C7E" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:id="@+id/etpassword"
+        android:fontFamily="@font/roboto"
+        android:hint="Password"
+        android:textColorHint="#128C7E" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerbtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_gravity="center"
+        android:background="@color/purple_500"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:cardElevation="5dp"
+
+           app:cardUseCompatPadding="true"
+           app:cardCornerRadius="10dp"
+           app:contentPadding="5dp"
+           tools:ignore="MissingConstraints">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <ImageView
+                   android:id="@+id/recylerview_image"
+                   android:layout_width="100dp"
+                   android:src="@drawable/profile"
+                   android:layout_height="100dp"
+                   android:layout_marginLeft="-20dp"
+                   />
+
+
+           </LinearLayout>
+
+
+
+           <LinearLayout
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginStart="85dp"
+
+
+               >
+
+
+
+               <TextView
+
+                   android:id="@+id/recylerview_fullname"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="5dp"
+                   android:fontFamily="@font/roboto"
+                   android:text="Fullname"
+                   android:textColor="@color/black"
+                   android:textSize="15sp"
+                   android:layout_marginBottom="5dp"
+
+
+                   />
+
+               <TextView
+
+                   android:id="@+id/recylerview_department"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginBottom="5dp"
+                   android:fontFamily="@font/roboto"
+                   android:text="Department"
+                   android:textSize="13sp"
+
+                   />
+
+
+
+
+
+
+
+
+
+           </LinearLayout>
+
+
+
+       </androidx.cardview.widget.CardView>
+
+   </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

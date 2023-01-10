@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.doctor" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Doctor" >
+
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".EnableAccessLocation"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".ShowTime"
+            android:exported="false" />
+        <activity
+            android:name=".EnterAppointmentSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".Book"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyOTPActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SendOTPActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BookAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorHome"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultationDoctorAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".CardiologyDentalAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".DentalDoctorsAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseDepartment"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".Appointment"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralTreatment"
+            android:exported="false" />
+        <activity
+            android:name=".Cardiology"
+            android:exported="false" />
+        <activity
+            android:name=".Dental"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorUseOnly"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".RetrievedDoctorData"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorRegister"
+            android:exported="false" />
+        <activity
+            android:name=".PatientRegister"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

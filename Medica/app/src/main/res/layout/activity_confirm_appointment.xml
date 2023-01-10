@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/alex"
+    android:layout_height="match_parent"
+    tools:context=".AppointmentHours">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:text="Doctor's fullname*"/>
+    <EditText
+        android:id="@+id/doctorfullname"
+        android:layout_width="300dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="10dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/yantramanav"
+        android:textColor="@color/black"
+        android:layout_height="45dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        android:text="Purpose of visit*"/>
+    <EditText
+        android:id="@+id/purpose"
+        android:layout_width="300dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/yantramanav"
+        android:layout_height="45dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        android:text="Date and time*"/>
+    <EditText
+        android:id="@+id/datetime"
+        android:layout_width="300dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/yantramanav"
+        android:layout_height="45dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textStyle="bold"
+        android:text="Please provide the following information about yourself/Patient"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        android:text="Fullname*"/>
+    <EditText
+        android:id="@+id/patientfullname"
+        android:layout_width="300dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/yantramanav"
+        android:layout_height="45dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        android:text="Email*"/>
+    <EditText
+        android:id="@+id/patientemail"
+        android:layout_width="300dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/yantramanav"
+        android:layout_height="45dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        android:text="Phone number*"/>
+    <EditText
+        android:id="@+id/patientcontact"
+        android:layout_width="300dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/yantramanav"
+        android:layout_height="45dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonConfirm"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Confirm Appointment"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/MedicoApp/app/src/main/res/drawable/backgroundbox.xml" value="0.23692307692307693" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/MedicoApp/app/src/main/res/layout/activity_dashboard.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/MedicoApp/app/src/main/res/layout/activity_entermobile.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/MedicoApp/app/src/main/res/layout/activity_main.xml" value="0.11639492753623189" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/MedicoApp/app/src/main/res/layout/app_bar_main.xml" value="0.10916919959473151" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/MedicoApp/app/src/main/res/layout/content_home.xml" value="0.10916919959473151" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/MedicoApp/app/src/main/res/layout/content_main.xml" value="0.262615859938208" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/MedicoApp/app/src/main/res/layout/verifyotpnumber.xml" value="0.14175724637681159" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/MedicoApp/app/src/main/res/menu/main.xml" value="0.10989583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.262615859938208" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

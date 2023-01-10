@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CardiologyDentalAppointment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Edit Profile"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_500"
+        android:paddingTop="10dp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageVie"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profile"
+
+        />
+
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto"
+        android:textSize="16sp"
+        android:hint="Fullname"
+        android:id="@+id/editname1"
+        android:textColorHint="#128C7E" />
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/roboto"
+        android:id="@+id/editdepartment1"
+        android:textSize="16sp"
+        android:hint="Department"
+        android:textColorHint="#128C7E" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/roboto"
+        android:textSize="16sp"
+        android:hint="Choose Date"
+        android:textColorHint="#128C7E" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/roboto"
+        android:textSize="16sp"
+        style="@style/Widget.AppCompat.Light.DropDownItem.Spinner"
+        android:id="@+id/datepicker"
+        android:onClick="openDatePicker"
+        android:textColorHint="#128C7E" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:textSize="16sp"
+        android:hint="Enter time available"
+        android:id="@+id/editTexttime1"
+        android:textColorHint="#128C7E" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:textSize="16sp"
+        android:hint="Enter time available"
+        android:id="@+id/editTexttime2"
+        android:textColorHint="#128C7E" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:textSize="16sp"
+        android:hint="Enter time available"
+        android:id="@+id/editTexttime3"
+        android:textColorHint="#128C7E" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/timebtn1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Update Profile"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_gravity="center"
+        android:background="@color/purple_500"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-220dp"
+        android:visibility="gone"
+        />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

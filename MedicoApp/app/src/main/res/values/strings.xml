@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MedicoApp</string>
+    <string name="we_will_send_a_one_time_code_on_this_given_mobile_number">We will send a one time Code on this given mobile number</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="please_enter_the_code_we_send_you">Please enter the code we send you</string>
+    <string name="_0740569496">0740569496</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_homepage">Homepage</string>
+</resources>

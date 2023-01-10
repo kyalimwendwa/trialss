@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/alex"
+    android:layout_height="match_parent"
+    tools:context=".BookAppointment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:textColor="@color/purple_500"
+            android:layout_marginLeft="320dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/profile"
+
+            />
+
+
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/roboto"
+            android:textSize="14sp"
+            android:hint="Fullname"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:background="@drawable/searchbackground"
+            android:id="@+id/edit1name"
+            android:textColorHint="#128C7E" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:hint="Enter date"
+            android:fontFamily="@font/roboto"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:background="@drawable/searchbackground"
+            android:id="@+id/datepicker"
+            android:textColorHint="#128C7E" />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:hint="Enter available Slots"
+            android:fontFamily="@font/roboto"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:background="@drawable/searchbackground"
+            android:id="@+id/slots"
+            android:textColorHint="#128C7E" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Morning Schedule"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="serif-monospace"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:hint="9:00AM"
+                android:textColorHint="@color/purple_200"
+                android:id="@+id/btn1"
+                android:background="@drawable/searchbackground"
+                android:textColor="@color/purple_200"
+                />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:hint="09:30 AM"
+                android:textColorHint="@color/purple_200"
+                android:layout_marginLeft="4dp"
+                android:id="@+id/btn2"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:hint="10:00 AM"
+                android:id="@+id/btn3"
+                android:textColorHint="@color/purple_200"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:hint="10:30 AM"
+                android:id="@+id/btn4"
+                android:textColorHint="@color/purple_200"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:hint="11:00 AM"
+                android:id="@+id/btn5"
+                android:textColorHint="@color/purple_200"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:hint="11:30 AM"
+                android:textColorHint="@color/purple_200"
+                android:id="@+id/btn6"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:hint="12:00 PM"
+                android:textColorHint="@color/purple_200"
+                android:id="@+id/btn7"
+                android:layout_marginStart="4dp"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColorHint="@color/purple_200"
+                android:hint="12:30 PM"
+                android:id="@+id/btn8"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Afternoon Schedule"
+                android:textColor="@color/black"
+                android:fontFamily="serif-monospace"
+                android:textSize="18sp"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:hint="01:00 PM"
+                android:textColorHint="@color/purple_200"
+                android:id="@+id/btn9"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:hint="02:00 PM"
+                android:textColorHint="@color/purple_200"
+                android:layout_marginStart="4dp"
+                android:id="@+id/btn11"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColorHint="@color/purple_200"
+                android:hint="02:30 PM"
+                android:id="@+id/btn12"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColorHint="@color/purple_200"
+                android:hint="03:00 PM"
+                android:id="@+id/btn13"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColorHint="@color/purple_200"
+                android:hint="03:30 PM"
+                android:id="@+id/btn14"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:hint="04:00 PM"
+                android:textColorHint="@color/purple_200"
+                android:layout_marginStart="4dp"
+                android:id="@+id/btn15"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:hint="04:30 PM"
+                android:textColorHint="@color/purple_200"
+                android:id="@+id/btn16"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:hint="05:00 PM"
+                android:textColorHint="@color/purple_200"
+                android:id="@+id/btn17"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/purple_500"
+                android:background="@drawable/searchbackground"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-490dp"
+            android:visibility="gone"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</ScrollView>

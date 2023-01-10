@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".GeneralTreatment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_500"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="20sp"
+
+            android:text="Find your desired Doctor"
+            android:layout_marginLeft="30dp"/>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Treatments offered "
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginTop="10dp">
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="20dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:padding="10dp"
+
+
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/head"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ENT "
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:gravity="center"
+
+
+                        android:layout_marginTop="2dp"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="20dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:id="@+id/cardiology"
+                android:padding="10dp"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/fatigue"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fatigue"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:layout_marginTop="2dp"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="20dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:padding="10dp"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/sneeze"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fever"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:layout_marginTop="2dp"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="20dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:padding="10dp"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/digestion"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stomach"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:layout_marginTop="2dp"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="20dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:padding="10dp"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/bloodsugar"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Blood sugar"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:layout_marginTop="2dp"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="20dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:padding="10dp"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/urinary"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dialysis"
+                        android:gravity="center"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:layout_marginTop="2dp"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        android:text="Top doctors"/>
+
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/recylerview_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        />
+</LinearLayout>

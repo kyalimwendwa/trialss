@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Sign IN"
+        android:textSize="24sp"
+        android:textAllCaps="true"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/roboto"
+        android:textSize="16sp"
+        android:hint="Email Address"
+        android:textColorHint="#128C7E" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto"
+        android:hint="Password"
+        android:textColorHint="#128C7E" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Sign In"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_gravity="center"
+        android:background="@color/purple_500"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/createaccount"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Create Account"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_gravity="center"
+        android:background="@color/purple_500"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        android:text="Forgot Password?"
+        android:textColor="@color/purple_500" />
+
+
+
+
+
+</LinearLayout>

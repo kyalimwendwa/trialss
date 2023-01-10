@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/drawable/appoint.xml" value="0.240625" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/drawable/imageb.xml" value="0.240625" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_appointment1.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_book.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_book_appointment.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_cardiology.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_choose_department.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_confirm_appointment.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_consultation_doctor_appointment.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_dental.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_dental_doctors_appointment.xml" value="0.1852355072463768" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_doctor_home.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_doctor_login.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_doctor_profile.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_doctor_register.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_doctor_registration.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_doctor_use_only.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_enable_access_location.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_fetchdoctordata.xml" value="0.2" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_launcher.xml" value="0.16304347826086957" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_main2.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_retrieved_doctor_data.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_send_otpactivity.xml" value="0.1" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_show_time.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_verify_otpactivity.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/activity_verify_phone.xml" value="0.16304347826086957" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/app_bar_homepage.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/content_homepage.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/design_row_for_doctor.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/design_row_for_doctordata.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/doctorsavailable.xml" value="0.2" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/fragment_gallery.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/fragment_home.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/fragment_slideshow.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/nav_header_homepage.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/seedoctors.xml" value="0.1" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/viewappoint1.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/viewappointmentdetails.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/viewconsult.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/layout/viewdoctors.xml" value="0.25" />
+        <entry key="..\:/Users/Alex Kyali/AndroidStudioProjects/Doctor/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

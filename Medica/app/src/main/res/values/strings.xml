@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Medica</string>
+
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/yantramanav</item>
+
+
+    </style>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="let_s_find_your">Let\'s find your</string>
+    <string name="specialist">Specialist</string>
+    <string name="please_enter_the_code_we_send_you">Please enter the Code we send you</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="we_will_send_a_one_time_code_on_this_given_mobile_number">We_will_send_a_one_time_code_on_this_given_mobile_number</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="we_will_send_a_verification_code_to_the_mobile_number">We will send a verification code to the mobile number</string>
+    <string name="_254">+254</string>
+    <string name="number">712456378</string>
+    <string name="get_code">Get Code</string>
+    <string name="enter_the_verification_code_we_send_to">Enter the verification code we send to</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="verify">Verify</string>
+    <string name="resend_code">RESEND CODE</string>
+    <string name="we_will_send_you_an_sms_with_6_digit_verification_code_to">We will send you an SMS with 6-digit verification code to</string>
+    <string name="enter_the_6_digit_verification_code_we_have_sent_to">Enter the 6-digit verification code we have sent to</string>
+    <string name="we_have_sent_you_an_sms_with_a_6_digit_verification_code_to">We have sent you an SMS with a 6-digit verification code to</string>
+</resources>

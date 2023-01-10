@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+
+        <item>@font/calligraffitti</item>
+        <item>@font/dancing_script_bold</item>
+        <item>@font/oleo_script</item>
+        <item>@font/petit_formal_script</item>
+        <item>@font/roboto</item>
+        <item>@font/warnes</item>
+    </array>
+</resources>

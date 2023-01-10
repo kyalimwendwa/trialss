@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1000906207718",
+    "firebase_url": "https://doctorappointment-a68be-default-rtdb.firebaseio.com",
+    "project_id": "doctorappointment-a68be",
+    "storage_bucket": "doctorappointment-a68be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000906207718:android:653f062ba033d9dda32627",
+        "android_client_info": {
+          "package_name": "com.example.doctorappointment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000906207718-a8poqoaig5u2hutilmqojop9utno0qfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm0KytnMqFgrRrEfICPT27YApQN-wcAIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000906207718-a8poqoaig5u2hutilmqojop9utno0qfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

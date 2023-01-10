@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    tools:ignore="MissingDefaultResource">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/appointment"
+            android:title="Appointments" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/orders"
+            android:title="Orders" />
+        <item
+            android:id="@+id/nav_consultations"
+            android:icon="@drawable/consultations"
+            android:title="Consultations" />
+        <item
+            android:id="@+id/nav_mydoctors"
+            android:icon="@drawable/person"
+            android:title="My doctors" />
+        <item
+            android:id="@+id/nav_reminders"
+            android:icon="@drawable/reminders"
+            android:title="Reminders" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/payment"
+            android:title="Payments" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/sett"
+            android:title="Settings" />
+
+    </group>
+
+</menu>
